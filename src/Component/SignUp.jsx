@@ -6,7 +6,7 @@ import { Box} from "@mui/system";
 import LocalFireDepartmentIcon from '@mui/icons-material/LocalFireDepartment';
 import PasswordIcon from '@mui/icons-material/Password';
 
-const Sign_Up = () => {
+const SignUp = () => {
     return (
         <>  
         {/* form */}
@@ -39,4 +39,4 @@ const Sign_Up = () => {
       );
 }
  
-export default Sign_Up;
+export default SignUp;
