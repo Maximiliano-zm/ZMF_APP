@@ -18,7 +18,7 @@ const CardSkills = () => {
         {id : 13, text : 'TypeScript'}
     ]
     return (
-        <Grid container item m={1} p={2} xs={12} xl={6} sx={{
+        <Grid container item m={1} p={2} xs={10} xl={6} sx={{
             justifyContent: 'center',
             textAlign:'center'}}> 
                 {skills.map((skill , index)=>{      

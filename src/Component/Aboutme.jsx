@@ -9,8 +9,8 @@ const Description = () => {
         <Grid container m={1} p={2} sx={{
             alignItems: "center",
             textAlign: "center",
-            flexDirection: "column"}} data-aos="fade-up" data-aos-duration="1500"> 
-            <Grid item m={1} p={2} xs={12} xl={12}>
+            flexDirection: "column"}}> 
+            <Grid item m={1} p={2} xs={10} xl={10}>
                 <Typography variant='h2' color='secondary'>
                     <Filter1Icon/> About me:  
                 </Typography>
