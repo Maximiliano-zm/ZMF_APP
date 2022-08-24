@@ -9,7 +9,7 @@ const Skill = (props) => {
     // Destructuring props
     const{skill} = props;
     return (
-    <Grid item m={1} p={1} xs={3} data-aos="fade-right">
+    <Grid item m={1} data-aos="fade-right" data-aos-duration="1500" xl={5} xs={4}>
         <IconsCategories id={skill.id}/>
         <Card>
         <CardActionArea>

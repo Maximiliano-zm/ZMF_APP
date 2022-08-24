@@ -8,7 +8,7 @@ const AcorddionWork = () => {
     {id : 3 , title : 'title' , text : 'text' , link : 'WWW.asd.com'}
   ]
   return (
-        <Grid container item m={1} p={2} spacing={1} xs={10} xl={7} sx={{
+        <Grid container spacing={1} sx={{
             justifyContent: 'center',
             textAlign:'center'}}> 
                 {jobs.map((job , index)=>{

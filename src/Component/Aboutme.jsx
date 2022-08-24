@@ -6,25 +6,25 @@ import Filter1Icon from '@mui/icons-material/Filter1';
 
 const Description = () => {
     return (
-        <Grid container m={1} p={2} sx={{
+        <Grid container  sx={{
             alignItems: "center",
             textAlign: "center",
             flexDirection: "column"}}> 
-            <Grid item m={1} p={2} xs={10} xl={10}>
+            <Grid p={1} item data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8}>
                 <Typography variant='h2' color='secondary'>
                     <Filter1Icon/> About me:  
                 </Typography>
                 <Typography variant='body1' color='secondary'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </Typography>
                 <Typography variant='body1' color='secondary'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </Typography>
                 <Typography variant='body2' color='secondary'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elitLorem ipsum dolor sit amet, consectetur adipisicing elit..
                 </Typography>
                 <Typography variant='body1' color='secondary'>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing :
+                    Lorem ipsum dolor sit amet, consectetur adipisicing :eLorem ipsum dolor sit amet, consectetur adipisicing elit.
                 </Typography>
             </Grid>
                 <CardSkills/>

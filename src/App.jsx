@@ -18,20 +18,13 @@ const App  = () => {
   
   return (
     <ThemeProvider theme={theme}>
-        
-        
-<Grid container sx={{flexDirection : 'row' , justifyContent : 'space-between' , position:'fixed'}}>
-<Navbar item/>
-<NavbarMail item/> 
-</Grid>
-
-
-  <Description/>
-  <Aboutme/>
-  <Worked/>
-
-
-
+      <Grid container sx={{flexDirection : 'row' , justifyContent : 'space-between' , position:'fixed'}}>
+      <Navbar item/>
+      <NavbarMail item/> 
+      </Grid>
+        <Description/>
+        <Aboutme/>
+        <Worked/>
     </ThemeProvider>
     );
 }

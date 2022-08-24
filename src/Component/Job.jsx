@@ -8,7 +8,7 @@ import { Grid } from '@mui/material';
 const Job = (props) => {
     const {job}  = props
     return (
-        <Grid item xs={12} >
+        <Grid item xl={7} xs={10}>
         <Accordion variant='secondary'>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}

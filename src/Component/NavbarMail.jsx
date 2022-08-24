@@ -18,7 +18,7 @@ const NavbarMail = () => {
     setOpen(false);
   };
   return (
-    <Grid p={1} m={2}>
+    <Grid m={1}>
       <AppBar elevation={0} position="static"sx={{backgroundColor:'transparent'}} onClick={handleClick}>
         <Toolbar sx={{display:'flex', flexDirection:'column'}}>
         <Typography variant="body1" sx={{writingMode : 'vertical-lr'}}>
