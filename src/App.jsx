@@ -8,14 +8,10 @@ import Worked from './Component/Worked';
 //themes
 import { theme } from './Themeconfig/ThemeConfig';
 import { ThemeProvider } from '@mui/system';
-
 //components mui 5v
 import {Grid} from '@mui/material';
-
-
+import Footer from './Component/Footer';
 const App  = () => {
-
-  
   return (
     <ThemeProvider theme={theme}>
       <Grid container sx={{flexDirection : 'row' , justifyContent : 'space-between' , position:'fixed'}}>
@@ -25,9 +21,9 @@ const App  = () => {
         <Description/>
         <Aboutme/>
         <Worked/>
+        <Footer/>
     </ThemeProvider>
     );
 }
- 
 export default App;
 

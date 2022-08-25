@@ -8,8 +8,8 @@ import { Grid } from '@mui/material';
 const Job = (props) => {
     const {job}  = props
     return (
-        <Grid item xl={7}>
-        <Accordion variant='secondary' xs={10} data-aos="fade-right" data-aos-duration="1500">
+        <Grid item xl={7} data-aos="zoom-in" data-aos-duration="1500">
+        <Accordion variant='secondary' xs={10}>
         <AccordionSummary
           expandIcon={<ExpandMoreIcon />}
         >

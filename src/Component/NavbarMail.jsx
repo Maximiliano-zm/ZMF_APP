@@ -5,20 +5,41 @@ import AppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
 import EmailIcon from '@mui/icons-material/Email';
-import {Alert, Grid,Snackbar,Typography } from '@mui/material';
+import {Grid,Typography } from '@mui/material';
+import Swal from 'sweetalert2';
 
 const NavbarMail = () => {
- 
-  const [open, setOpen] = React.useState(false);
   const handleClick = () => {
-    setOpen(true);
-    clipboard.writeText("Maximiliano.zuritam@gmail.com")
-  };
-  const handleClose = () => {
-    setOpen(false);
+    Swal.fire({
+      title: 'Estas seguro de que deseas copiar?',
+      text: "perderas lo que tienes copiado antes!",
+      icon: 'info',
+      color: '#fff',
+      background: '#121212',
+      confirmButtonColor: '#3085d6',
+      confirmButtonText: 'Confirmar',
+      showCloseButton: true,
+      allowOutsideClick: false,
+      backdrop : true
+    }).then((result) => {
+      if (result.isConfirmed) {
+        Swal.fire(
+          {
+        icon: 'success',
+        color: '#fff',
+        background: '#121212',
+        text: "Muchas Gracias! :)",
+        timer : 1600,
+        timerProgressBar: true,
+        showConfirmButton: false
+          }
+        )
+        clipboard.writeText("Maximiliano.zuritam@gmail.com")
+      }
+    })
   };
   return (
-    <Grid m={1}>
+    <Grid m={1} data-aos="fade-left" data-aos-duration="1500">
       <AppBar elevation={0} position="static"sx={{backgroundColor:'transparent'}} onClick={handleClick}>
         <Toolbar sx={{display:'flex', flexDirection:'column'}}>
         <Typography variant="body1" sx={{writingMode : 'vertical-lr'}}>
@@ -32,11 +53,6 @@ const NavbarMail = () => {
           </IconButton>
         </Toolbar>
       </AppBar>
-      <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
-        <Alert onClose={handleClose} variant="outlined" severity="info">
-          Muchas gracias!
-        </Alert>
-      </Snackbar>
     </Grid>
   );
 };

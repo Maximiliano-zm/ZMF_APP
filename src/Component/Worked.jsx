@@ -11,7 +11,7 @@ const Worked = () => {
             textAlign: "center",
             flexDirection: "column"}}> 
             <Grid item p={1} data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8}>
-                <Typography variant='h2' color='secondary'>
+                <Typography variant='h3' color='secondary'>
                     <Filter2Icon/> Work && Experience:  
                 </Typography>
             </Grid>

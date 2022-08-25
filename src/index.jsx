@@ -6,12 +6,11 @@ import App from './App';
 import SignIn from './Component/SignIn';
 import SignUp from './Component/SignUp';
 import AnimationAOS from "./AnimationAOS";
-//AnimationComponents
+//Animationsf
 AnimationAOS();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-
     <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>}/>      
@@ -19,6 +18,4 @@ root.render(
       <Route path='/sign-up' element={<SignUp/>}/>
     </Routes>
     </BrowserRouter>    
-
 );
-

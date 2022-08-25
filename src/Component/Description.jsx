@@ -8,7 +8,7 @@ const Description = () => {
             alignItems: "center",
             textAlign: "center",
             flexDirection: "column"}}> 
-        <Grid item p={1} xl={2} xs={8} mt={30} mb={35}>
+        <Grid item xl={2} xs={8} mt={30} mb={25} p={1}>
         <LocalFireDepartmentIcon color="secondary" fontSize="large" data-aos="flip-right" data-aos-duration="3000"/>
             <Typography variant='h3' color='secondary' data-aos="fade-right" data-aos-duration="2000">
                 Hola Mundo!

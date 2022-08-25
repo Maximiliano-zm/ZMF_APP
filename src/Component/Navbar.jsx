@@ -8,7 +8,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Grid } from '@mui/material';
 const Navbar = () => {
   return (
-      <Grid>
+      <Grid m={1} data-aos="fade-right" data-aos-duration="1500">
       <AppBar m={1} elevation={0} position="static" sx={{backgroundColor:'transparent'}}>
         <Toolbar sx={{display:'flex', flexDirection:'column'}}>
           <IconButton
