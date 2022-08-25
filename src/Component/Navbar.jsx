@@ -5,7 +5,8 @@ import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import { Grid } from '@mui/material';
+import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
+import { Grid, Typography } from '@mui/material';
 const Navbar = () => {
   return (
       <Grid m={1} data-aos="fade-right" data-aos-duration="1500">
@@ -26,6 +27,16 @@ const Navbar = () => {
           >
             <LinkedInIcon/>
           </IconButton>
+          <IconButton
+            size="large"
+            color="secondary"
+            href='file:///C:/Users/KILD/Desktop/CV-Maximiliano-Zurita-2022.pdf'
+          >
+          <InsertDriveFileIcon color='primary'/>
+          </IconButton>
+          <Typography variant="body1"  sx={{writingMode : 'vertical-lr'}}>
+              Resumen
+          </Typography>
         </Toolbar>
       </AppBar>
     </Grid>

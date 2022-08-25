@@ -5,6 +5,7 @@ import NavbarMail from './Component/NavbarMail';
 import Description from './Component/Description';
 import Aboutme from './Component/Aboutme';
 import Worked from './Component/Worked';
+import Projects from './Component/Projects';
 //themes
 import { theme } from './Themeconfig/ThemeConfig';
 import { ThemeProvider } from '@mui/system';
@@ -21,6 +22,7 @@ const App  = () => {
         <Description/>
         <Aboutme/>
         <Worked/>
+        <Projects/>
         <Footer/>
     </ThemeProvider>
     );
