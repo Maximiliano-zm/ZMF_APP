@@ -6,9 +6,9 @@ import App from './App';
 import SignIn from './Component/SignIn';
 import SignUp from './Component/SignUp';
 import AnimationAOS from "./AnimationAOS";
+
 //Animationsf
 AnimationAOS();
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>

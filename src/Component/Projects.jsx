@@ -1,9 +1,9 @@
 import React from 'react'
 import {Grid,Typography} from "@mui/material";
-//others components
-import CardSkills from "./CardSkills";
 //icons
-import Filter1Icon from '@mui/icons-material/Filter1';
+import Looks3Icon from '@mui/icons-material/Looks3';
+import CardProject from './CardProject';
+
 const Projects = () => {
     return ( 
         <>
@@ -13,10 +13,10 @@ const Projects = () => {
             flexDirection: "column"}}> 
             <Grid item data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8} mt={10} mb={5} p={1}>
                 <Typography variant='h2' color='secondary'>
-                    <Filter1Icon/> Proyectos 
+                    <Looks3Icon color='primary'/> Proyectos 
                 </Typography>
             </Grid>
-                <CardSkills/>
+            <CardProject/>
         </Grid>
         </>
      );

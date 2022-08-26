@@ -30,7 +30,6 @@ const Navbar = () => {
           <IconButton
             size="large"
             color="secondary"
-            href='file:///C:/Users/KILD/Desktop/CV-Maximiliano-Zurita-2022.pdf'
           >
           <InsertDriveFileIcon color='primary'/>
           </IconButton>

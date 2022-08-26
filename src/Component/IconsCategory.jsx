@@ -13,8 +13,8 @@ import { ReactComponent as IconReact } from '../Img/react.svg';
 import { ReactComponent as IconStyled } from '../Img/styled.svg';
 import { ReactComponent as IconTypeScript } from '../Img/typescript.svg';
 const propIcons = {
-    height: 80,
-    width : 80    
+    height: 50,
+    width : 50    
 }
 const iconsCategories  = {
     1: <IconBootstrap {...propIcons}/>,
