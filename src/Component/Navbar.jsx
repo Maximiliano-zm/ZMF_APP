@@ -30,6 +30,7 @@ const Navbar = () => {
           <IconButton
             size="large"
             color="secondary"
+            href='https://drive.google.com/file/d/17NF9_rkZfFwGKQV1_jIvZn2aBBTg9ksO/view?usp=sharing'
           >
           <InsertDriveFileIcon color='primary'/>
           </IconButton>
