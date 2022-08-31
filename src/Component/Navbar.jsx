@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
       <Grid m={1} data-aos="fade-right" data-aos-duration="1500">
       <AppBar m={1} elevation={0} position="static" sx={{backgroundColor:'transparent'}}>
-        <Toolbar sx={{display:'flex', flexDirection:'column'}}>
+        <Toolbar sx={{flexDirection:'column'}}>
           <IconButton
             size="large"
             color="secondary"
@@ -19,7 +19,7 @@ const Navbar = () => {
           >
             <GitHubIcon/>
           </IconButton>
-          <Divider orientation="horizontal" variant="middle" flexItem sx={{ bgcolor: 'secondary.main' }}/>
+          <Divider orientation="horizontal" variant="middle" flexItem sx={{ bgcolor: '#fff' }}/>
           <IconButton
             size="large"
             color="secondary"

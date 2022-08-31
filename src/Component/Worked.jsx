@@ -10,8 +10,8 @@ const Worked = () => {
             alignItems: "center",
             textAlign: "center",
             flexDirection: "column"}}> 
-            <Grid item p={1} data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8}>
-                <Typography variant='h3' color='secondary'>
+            <Grid item data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8} p={1}>
+                <Typography variant='h3' color='#fff'>
                     <LooksTwoIcon color='primary'/> Work && Experience:  
                 </Typography>
             </Grid>

@@ -12,7 +12,7 @@ const Projects = () => {
             textAlign: "center",
             flexDirection: "column"}}> 
             <Grid item data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8} mt={10} mb={5} p={1}>
-                <Typography variant='h2' color='secondary'>
+                <Typography variant='h3' color='#fff'>
                     <Looks3Icon color='primary'/> Proyectos 
                 </Typography>
             </Grid>

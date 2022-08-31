@@ -15,7 +15,6 @@ const CardSkills = () => {
         {id : 10, text : 'Node'},
         {id : 11, text : 'React'},
         {id : 12, text : 'Styled-Componets'},
-        {id : 13, text : 'TypeScript'}
     ]
     return (
         <Grid container item xl={6} xs={11} p={3} sx={{

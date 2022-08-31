@@ -11,8 +11,8 @@ const Description = () => {
             textAlign: "center",
             flexDirection: "column"}}> 
             <Grid item data-aos="fade-up" data-aos-duration="1500" xl={10} xs={8} mt={10} mb={5} p={1}>
-                <Typography variant='h2' color='secondary'>
-                    <LooksOneIcon color='primary'/> About me:  
+                <Typography variant='h2' color='#fff'>
+                    <LooksOneIcon color='primary'/> About me:
                 </Typography>
                 <Typography variant='body1' color='secondary'>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit.Lorem ipsum dolor sit amet, consectetur adipisicing elit.

@@ -12,8 +12,8 @@ const CardProject = () => {
         <Grid container item xl={6} xs={11} p={3} sx={{
             justifyContent: 'center',
             textAlign:'center'}}> 
-                {Project.map((index,project)=>{      
-                    return (<ProjectC/>)
+                {Project.map((project,index)=>{      
+                    return (<ProjectC key={index} project={project}/>)
                 })}
         </Grid>
      );
