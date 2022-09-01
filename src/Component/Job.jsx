@@ -6,10 +6,11 @@ import { Card, Grid } from '@mui/material';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import { CardActionArea } from '@mui/material';
+
 const Job = (props) => {
     const {job}  = props
     return (
-      <Grid item xl={6} xs={11} data-aos="zoom-in" data-aos-duration="1500">
+      <Grid item xl={5} xs={11} data-aos="zoom-in" data-aos-duration="1500">
         <Accordion variant='secondary' xs={10}>
             <AccordionSummary expandIcon={<ExpandMoreIcon/>}>
               <Typography>{job.title}</Typography>
@@ -18,8 +19,7 @@ const Job = (props) => {
                 <CardActionArea>
                   <CardMedia
                     component="img"
-                    height="150"
-                    image=""
+                    image={job.img}
                   />
                   <CardContent>
                       <Typography gutterBottom variant="h5" component="div">
@@ -30,7 +30,14 @@ const Job = (props) => {
                       </Typography>
                   </CardContent>
                       <CardContent>
-                        {/* //content */}
+                       {job.lenguajes.map(lenguaje => {
+                         return (
+                          <Grid xl={12} sx={{justifyContent : 'center' , flexDirection : 'column-reverse'}}>
+                             <Typography color={lenguaje.color}>
+                            {lenguaje.lenguaje}
+                          </Typography>
+                          </Grid>
+                         )})}
                       </CardContent>
                 </CardActionArea>
               </Card>
